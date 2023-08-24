@@ -10,3 +10,6 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("x", "<leader>p", "\"_dP")
 
 vim.keymap.set("n", "<C-c>", "<Esc>")
+vim.keymap.set("n", "<Alt>f", "<Esc>")
+vim.keymap.set("i", "<Alt>f", "<Esc>")
+
