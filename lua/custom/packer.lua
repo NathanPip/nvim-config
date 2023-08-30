@@ -12,6 +12,7 @@ return require('packer').startup(function(use)
     -- Themes n such
     use({ 'rose-pine/neovim', as = 'rose-pine' })
     use({ "catppuccin/nvim", as = "catppuccin" })
+    use({ 'navarasu/onedark.nvim', as = "onedark" })
 
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
     use('nvim-treesitter/playground')
