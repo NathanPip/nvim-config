@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Nather\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Nather\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
+  },
   catppuccin = {
     loaded = true,
     path = "C:\\Users\\Nather\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\catppuccin",
@@ -99,6 +104,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Nather\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\copilot.lua",
     url = "https://github.com/zbirenbaum/copilot.lua"
+  },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Nather\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   harpoon = {
     loaded = true,
@@ -139,6 +149,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Nather\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "C:\\Users\\Nather\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   onedark = {
     loaded = true,

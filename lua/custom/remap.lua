@@ -20,6 +20,23 @@ vim.keymap.set("x", "<leader>p", "\"_dP")
 vim.keymap.set("n", "<C-c>", "<Esc>")
 vim.keymap.set("i", "<C-c>", "<Esc>")
 
+vim.keymap.set("n", "<A-c>", "<Esc>")
+vim.keymap.set("i", "<A-c>", "<Esc>")
+
+
+vim.keymap.set('n', '<A-p>', '<Cmd>BufferPin<CR>', {noremap = true, silent = true})
+vim.keymap.set('n', '<A-h>', '<Cmd>BufferPrevious<CR>', {noremap = true, silent = true})
+vim.keymap.set('n', '<A-l>', '<Cmd>BufferNext<CR>', {noremap = true, silent = true})
+vim.keymap.set('n', '<A-1>', '<Cmd>BufferGoto 1<CR>')
+vim.keymap.set('n', '<A-2>', '<Cmd>BufferGoto 2<CR>')
+vim.keymap.set('n', '<A-3>', '<Cmd>BufferGoto 3<CR>')
+vim.keymap.set('n', '<A-4>', '<Cmd>BufferGoto 4<CR>')
+vim.keymap.set('n', '<A-5>', '<Cmd>BufferGoto 5<CR>')
+vim.keymap.set('n', '<A-6>', '<Cmd>BufferGoto 6<CR>')
+vim.keymap.set('n', '<A-7>', '<Cmd>BufferGoto 7<CR>')
+vim.keymap.set('n', '<A-8>', '<Cmd>BufferGoto 8<CR>')
+vim.keymap.set('n', '<A-9>', '<Cmd>BufferGoto 9<CR>')
+vim.keymap.set('n', '<A-0>', '<Cmd>BufferLast<CR>')
 
 vim.keymap.set("n", "<leader>q", ":q<CR>")
 
