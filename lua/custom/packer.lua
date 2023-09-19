@@ -14,6 +14,8 @@ return require('packer').startup(function(use)
     use({ "catppuccin/nvim", as = "catppuccin" })
     use({ 'navarasu/onedark.nvim', as = "onedark" })
 
+    use { "zbirenbaum/copilot.lua" }
+
     use('mg979/vim-visual-multi')
     use('theprimeagen/vim-be-good')
     use('sbdchd/neoformat')

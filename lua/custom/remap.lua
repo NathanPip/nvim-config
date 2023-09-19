@@ -13,10 +13,15 @@ vim.keymap.set("v", "<C-K>", "yykp")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
+vim.keymap.set("n", "<leader>l", ":nohlsearch<CR>")
+
 vim.keymap.set("x", "<leader>p", "\"_dP")
 
 vim.keymap.set("n", "<C-c>", "<Esc>")
-vim.keymap.set("i", "<C-f>", function() return vim.fn['copilot#Accept']("") end, { silent = true, expr = true })
+vim.keymap.set("i", "<C-c>", "<Esc>")
+
+
+vim.keymap.set("n", "<leader>q", ":q<CR>")
 
 vim.keymap.set("n", "<leader>h", ":set hlsearch!<CR>")
 
