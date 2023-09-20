@@ -23,6 +23,8 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("n", "<A-c>", "<Esc>")
 vim.keymap.set("i", "<A-c>", "<Esc>")
 
+vim.keymap.set("n", "<C-s>", "<Cmd>:w<CR>")
+vim.keymap.set("i", "<C-s>", "<Cmd>:w<CR>")
 
 vim.keymap.set('n', '<A-p>', '<Cmd>BufferPin<CR>', {noremap = true, silent = true})
 vim.keymap.set('n', '<A-h>', '<Cmd>BufferPrevious<CR>', {noremap = true, silent = true})
