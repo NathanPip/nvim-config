@@ -28,6 +28,14 @@ lsp.setup_servers({ 'tsserver', 'eslint' })
 -- (Optional) Configure lua language server for neovim
 require('lspconfig').lua_ls.setup(lsp.nvim_lua_ls())
 
+lsp.configure('gdscript', {
+    force_setup = true, -- because the LSP is global. Read more on lsp-zero docs about this.
+    single_file_support = false,
+    cmd = {'ncat', 'localhost', '6005'}, -- the important trick for Windows!
+    root_dir = require('lspconfig.util').root_pattern('project.godot', '.git'),
+    filetypes = {'gd', 'gdscript', 'gdscript3' }
+})
+
 lsp.setup()
 
 local cmp = require('cmp')
